@@ -19,7 +19,7 @@ public class AlertPopUpHandle {
 		
 		Thread.sleep(5000);
 		
-		Alert alert = driver.switchTo().alert();
+		Alert alert = driver.switchTo().alert(); 
 		
 		System.out.println(alert.getText());
 		
